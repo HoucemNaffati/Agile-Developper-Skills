@@ -63,5 +63,13 @@ Do you have a test strategy? Structure and organisation of tests is crucial.
 Tests are to maintain and use properly. How to integrate with your production pipelines correctly?
 
 ### Trunk based development 
-Setup pipelines so you autom
+Setup pipelines so you automatically run tests on merge requests and merge on master.
+Run tests so you capture failures early on pipelines.
+Deploy into production when merge on master succeeds.
+When bugs appear in production fix them immediately.
+Don't allow long living branches (more than 2 days)
+
 ### D.O.R.A metrics
+Measure your team performance using deployment frequency(separate features from chores),
+Lead time rode changes and recovery.
+Track them in a sustainable pace and use them to improve practices and methodologies.
