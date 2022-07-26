@@ -29,8 +29,10 @@ Description of skills needed for efficient agile developpement teams
  Test-first technique that injects acceptance tests senarios for features in the beggining of milestones.
  Acceptance tests are customer-facing tests. 
  Facilitates workshops with steakholders representives(PO, Business analystes…)
- Global feature design and creation of common vocabulary.
+ Global feature design (you may also call it feature discovery) and creation of common vocabulary.
  Clear contracts for developpers during milestones.
+ Those practices reduce communication problems and align understanding. 
+ It also shortcuts accidental complexity as it appears during the conversation.
  
 ### Integration Testing
  Test as soon as possible the usecase's dependencies, the real adapters and without mocking.
@@ -59,3 +61,7 @@ understanding and deploying mutation testing is a step forward for better qualit
 ### Organising Your Tests
 Do you have a test strategy? Structure and organisation of tests is crucial.
 Tests are to maintain and use properly. How to integrate with your production pipelines correctly?
+
+### Trunk based development 
+Setup pipelines so you autom
+### D.O.R.A metrics
